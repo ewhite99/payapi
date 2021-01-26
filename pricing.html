@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="desktop-nav-container">
+        <ul>
+          <li><a href="index.html"><img class="logo" src="./assets/shared/desktop/logo.svg"></a></li>
+          <li><a href="./pricing.html" class="navy-link">Pricing</a></li>
+          <li><a href="./about.html" class="navy-link">About</a></li>
+          <li><a href="./contact.html" class="navy-link">Contact</a></li>
+        </ul>
+        <button class="magenta-button">Schedule a Demo</button>
+      </div>
+      <div class="mobile-nav-container">
+        <img src="./assets/shared/desktop/logo.svg">
+        <img id="menu" src="./assets/shared/mobile/menu.svg">
+        <div class="mobile-menu">
+          <img id="close-menu" src="./assets/shared/mobile/close.svg">
+          <hr>
+          <ul>
+            <li><a href="./pricing.html" class="light-link">Pricing</a></li>
+            <li><a href="./about.html" class="light-link">About</a></li>
+            <li><a href="./contact.html" class="light-link">Contact</a></li>
+            <li><button class="magenta-button">Schedule a Demo</button></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <h1 class="large-heading">Pricing</h1>
+
+    <section class="prices-section">
+
+      <div class="price-container">
+
+        <h3 class="magenta-heading">Free Plan</h3>
+
+        <p class="price-description">Build and test using our core set of products with up to 100 API requests</p>
+
+        <p class="large-navy-text">$0.00</p>
+        
+        <ul class="price-feature-list">
+          <li class="checked">Transactions</li>
+          <li class="checked">Auth</li>
+          <li class="checked">Identity</li>
+          <li class="unchecked">Investments</li>
+          <li class="unchecked">Assets</li>
+          <li class="unchecked">Liabilities</li>
+          <li class="unchecked">Income</li>
+        </ul>
+        <button class="light-button">Request Access</button>
+
+      </div>
+
+      <div class="price-container">
+
+        <h3 class="magenta-heading">Basic Plan</h3>
+        <p class="price-description">Launch your project with unlimited requests and no contractual minimums</p>
+        <p class="large-navy-text">$249.00</p>
+        <ul class="price-feature-list">
+          <li class="checked">Transactions</li>
+          <li class="checked">Auth</li>
+          <li class="checked">Identity</li>
+          <li class="checked">Investments</li>
+          <li class="checked">Assets</li>
+          <li class="unchecked">Liabilities</li>
+          <li class="unchecked">Income</li>
+        </ul>
+        <button class="light-button">Request Access</button>
+        
+      </div>
+
+      <div class="price-container">
+
+        <h3 class="magenta-heading">Premium Plan</h3>
+        <p class="price-description">Get tailored solutions, volume pricing, and dedicated support for your team</p>
+        <p class="large-navy-text">$499.00</p>
+        <ul class="price-feature-list">
+          <li class="checked">Transactions</li>
+          <li class="checked">Auth</li>
+          <li class="checked">Identity</li>
+          <li class="checked">Investments</li>
+          <li class="checked">Assets</li>
+          <li class="checked">Liabilities</li>
+          <li class="checked">Income</li>
+        </ul>
+        <button class="light-button">Request Access</button>
+        
+      </div>
+
+    </section>
+
+    <section class="signup-section">
+
+      <h3 class="large-heading">Ready to start?</h3>
+        <form class="email-form-container">
+          <input type="text" placeholder="Enter email address">
+          <button class="magenta-button">Schedule a Demo</button>
+        </form>
+
+    </section>
+
+    <footer>
+      <ul>
+        <li><img src="./assets/shared/desktop/logo-light.svg" alt="PayApi logo"></li>
+        <li><a href="./pricing.html" class="light-link">Pricing</a></li>
+        <li><a href="./about.html" class="light-link">About</a></li>
+        <li><a href="./contact.html" class="light-link">Contact</a></li>
+      </ul>
+      <div class="social-media-container">
+        <img src="./assets/shared/desktop/facebook.svg" alt="facebook">
+        <img src="./assets/shared/desktop/twitter.svg" alt="twitter">
+        <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin">
+      </div>
+    </footer>
+  <script src="./script.js"></script>
+  </body>
+
+</html>
